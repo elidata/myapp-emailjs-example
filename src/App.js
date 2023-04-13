@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('NoCharamot', 'template_smin43a',
-    form.current, 'ji7gBPq28AGAyRUgW').then (   
+    form.current, '').then (   
        (result) => {
         alert("Message Sent Successfully");
         console.log(result.text);
@@ -67,3 +67,4 @@ function App() {
   );
 }
 export default App;
+//todo create setenv for ji7gBPq28AGAyRUgW
