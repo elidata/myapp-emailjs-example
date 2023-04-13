@@ -4,7 +4,10 @@ import './SendAMail.js' ;
 import EmailContactForm from './SendAMail.js';
 import React, { useRef } from "react";
 import emailjs, { init } from "@emailjs/browser";
-
+//
+// Example from 
+// https://github.com/abdulwaqar844/send-email-with-reactjs-and-emailjs
+//
 function App() {
   init("user_xxxxxxxxxxxxxxxxxxx");
   const form = useRef();
